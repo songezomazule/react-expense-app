@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 226, 226);
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.mainContainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 26px;
+  color: #333;
+}
+
+.balance {
+  margin-top: 10px;
+}
+
+.balance p {
+  font-size: 20px;
+  color: #666;
+}
+
+.balance span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.income-expense {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.inc-exp {
+  flex: 1;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inc-exp p {
+  font-size: 18px;
+  color: #666;
+}
+
+.span-1 {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.span-2 {
+  color: rgb(212, 18, 18);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.span-3 {
+  color: black;
+}
+
+.span-4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.inp-one {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inp-one input {
+  width: 48%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radio-input {
+  margin-bottom: 15px;
+}
+
+.radio-input label {
+  margin-right: 10px;
+}
+
+.btn-1 button {
+  padding: 8px 20px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-1 button:hover {
+  background-color: black;
+}
+
+/* Transactions Styles */
+.transactions {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.transactions h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.transaction-details {
+  display: flex;
+  padding: 0 5px;
+  margin-bottom: 9px;
+  border: 1px solid #ccc;
+  height: 35px;
+  align-items: center;
+}
+
+.trans-description {
+  display: inline-block;
+  width: 75%;
+  font-size: 16px;
+  color: #333;
+}
+
+.trans-amount {
+  display: inline-block;
+  width: 20%;
+  font-size: 16px;
+  color: #333;
+  text-align: right;
+}
